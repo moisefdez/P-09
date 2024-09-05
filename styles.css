@@ -1,18 +1,19 @@
-
 /* FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Trade+Winds&display=swap');
+
 /* GENERALES */
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-#container{
+
+#container {
     width: 100%;
     height: 100vh;
     margin: 0px;
-    background: linear-gradient(to right,#ff8647,#fdad69,#ffdd90);
+    background: linear-gradient(to right, #ff8647, #fdad69, #ffdd90);
 
     display: flex;
     justify-content: center;
@@ -20,11 +21,11 @@
 
 }
 
-#wrap{
+#wrap {
     width: 95%;
-    height: 500px;
+    height: 600px;
     background-color: #1b1b1b;
-    box-shadow:  20px 20px 30px #4e3b24;
+    box-shadow: 20px 20px 30px #4e3b24;
 
     display: flex;
     align-items: center;
@@ -33,21 +34,42 @@
     position: relative;
 }
 
-#tarjeta{
-    width: 24%;
-    height: 320px;
+#tarjeta {
+    width: 250px;
+    height: 400px;
     border-radius: 15px;
     background-color: #333;
     text-align: center;
-    line-height: 320px;
+    line-height: 400px;
     overflow: hidden;
+    position: relative;
 }
 
-#fondo{
+#fondo {
     color: #ffffff08;
-    font-size: 126px;
-    margin-left: -16px;
+    font-size: 141px;
+    margin-left: -43px;
     font-family: "Trade Winds", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+}
+
+#circulo {
+    width: 230px;
+    height: 230px;
+    border-radius: 150px;
+    background-color: #adf5fe;
+    position: absolute;
+    left: 78px;
+    top: -24px;
+}
+
+#img{
+    position: absolute;
+    top: 20px;
+}
+
+img{
+    width: 300px;
 }
