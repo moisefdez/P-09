@@ -89,7 +89,7 @@ img{
     font-family: "Trade Winds", system-ui;
     line-height: 630px;
     font-size: 25px;
-    transition: all 500ms ease-in-out;
+    transition: all 510ms ease-in-out;
     
 }
 
@@ -103,6 +103,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: end;
+    transition: all 520ms ease-in-out;
 }
 
 #size{
@@ -115,15 +116,22 @@ img{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     top: 400px;
+    transition: all 520ms ease-in-out;
+}
+.size{
+    margin-top: 5px;
 }
 
 
 .numer{
     width: 25px;
+    height: 20px;
+    line-height: 22px;
     margin-left: 15px;
     color: black;
     background-color: white;
     border-radius: 3px;
+    cursor: pointer;
 
 }
 
@@ -136,6 +144,7 @@ img{
     align-items: end;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    transition: all 520ms ease-in-out;
 }
 
 #colors .colors{
@@ -144,6 +153,7 @@ img{
     margin-left: 15px;
     border-radius: 50%;
     top: 450px;
+    cursor: pointer;
 }
 
 #verde{
@@ -174,5 +184,44 @@ input[type = "button"]{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: all 520ms ease-in-out;
 }
 
+/* hover */
+
+#tarjeta:hover #circulo{
+    width: 350px;
+    height: 350px;
+    left: -3px;
+    top: -198px;
+}
+
+.colors:hover{
+    border: 1px solid #fdad69 ;
+}
+
+#tarjeta:hover #img{
+    top: -19px;
+}
+
+#tarjeta:hover #text{
+    line-height: 409px;
+}
+
+#tarjeta:hover #opciones{
+    min-height: 300px;
+}
+.numer:hover{
+    background-color: #fdad69;
+}
+#tarjeta:hover #size{
+    top: 240px;
+}
+
+input[type = "button"]:active{
+    border: 1px solid yellow;
+}
+
+input[type = "button"]:hover{
+    transform: scale(1.2);
+}
