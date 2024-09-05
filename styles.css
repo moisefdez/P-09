@@ -26,6 +26,7 @@
 
 #wrap {
     width: 95%;
+    max-width: 1200px;
     height: 600px;
     background-color: #141724;
     box-shadow: 20px 20px 30px #4e3b24;
