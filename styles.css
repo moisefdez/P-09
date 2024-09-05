@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Trade+Winds&display=swap');
 
+/* font-family: "Josefin Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Trade+Winds&display=swap');
+
 /* GENERALES */
 * {
     margin: 0;
@@ -42,7 +45,7 @@
     background-color: #333;
     text-align: center;
     line-height: 400px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
@@ -86,5 +89,27 @@ img{
     
 }
 
-/* hovers */
+/* opcion */
 
+#size{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    color: #ffffffa1;
+    position: absolute;
+    line-height: normal;
+    justify-content: center;
+    align-items: end;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.numer{
+    width: 25px;
+    margin-left: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+
+}
